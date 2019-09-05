@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-send-email",
+  "version": "1.0.0",
+  "description": "Send email in Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forhad-h/nodejs-send-email.git"
+  },
+  "keywords": [
+    "nodejs",
+    "smtp",
+    "send",
+    "email"
+  ],
+  "author": "Md. Forhad Hosain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forhad-h/nodejs-send-email/issues"
+  },
+  "homepage": "https://github.com/forhad-h/nodejs-send-email#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "nodemailer": "^6.3.0"
+  }
+}
